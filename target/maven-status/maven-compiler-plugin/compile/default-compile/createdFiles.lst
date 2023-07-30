@@ -1,0 +1,12 @@
+com\product\Response\ResponseStatus.class
+com\product\Response\AppJAXRSResponseFilter.class
+com\login\vo\LoginVO.class
+com\product\Response\CommunicationResponse.class
+com\product\Response\PlainResponse.class
+map_my_india\safemate_heroku\App.class
+com\login\EndPoint\LoginEndpointImpl.class
+com\product\Response\JSONFormatter.class
+com\login\EndPoint\LoginEndpoint.class
+com\product\Response\Response.class
+com\product\Response\TemplateJSONProvider.class
+com\login\facade\LoginFacade.class

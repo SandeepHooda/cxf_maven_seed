@@ -17,6 +17,11 @@ public interface LoginEndpoint {
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Response getAccessToken( @Context HttpServletRequest request);
 	
+	@GET
+	@Path("/safemate/user/data")
+	@Produces({ MediaType.APPLICATION_JSON })
+	public Response getUserData( @Context HttpServletRequest request);
+	
 	
 	
 

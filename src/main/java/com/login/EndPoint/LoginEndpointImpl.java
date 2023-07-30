@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Response;
 
 import com.login.facade.LoginFacade;
+import com.login.vo.LoginVO;
 
 
 public class LoginEndpointImpl implements LoginEndpoint {
@@ -16,6 +17,22 @@ public class LoginEndpointImpl implements LoginEndpoint {
 		try{
 			
 				return Response.ok().entity(loginFacade.recordLoginSucess()).build();
+			
+			
+		}catch(Exception e){
+			e.printStackTrace();
+			
+			
+			return Response.serverError().entity("").build();
+		}
+	}
+	
+	@Override
+	public Response getUserData( HttpServletRequest request) {
+		try{
+			 LoginVO vo= new LoginVO();
+			 vo.setName("Sandeep "+vo.getRegID());
+				return Response.ok().entity(vo).build();
 			
 			
 		}catch(Exception e){

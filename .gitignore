@@ -1,0 +1,16 @@
+*.class
+*.jar
+/target/classes/*
+/target/classes/com/login/EndPoint/LoginEndpoint.class
+/target/classes/com/login/EndPoint/LoginEndpointImpl.class
+/target/classes/com/login/facade/LoginFacade.class
+/target/classes/com/login/vo/LoginVO.class
+/target/classes/com/product/Response/AppJAXRSResponseFilter.class
+/target/classes/com/product/Response/CommunicationResponse.class
+/target/classes/com/product/Response/JSONFormatter.class
+/target/classes/com/product/Response/PlainResponse.class
+/target/classes/com/product/Response/Response.class
+/target/classes/com/product/Response/ResponseStatus.class
+/target/classes/com/product/Response/TemplateJSONProvider.class
+/target/classes/map_my_india/safemate_heroku/App.class
+*.war
